@@ -71,6 +71,7 @@
 - [시스템 아키텍처](docs/architecture/SYSTEM_ARCHITECTURE.md)
 - [공식 데이터 연동 아키텍처](docs/architecture/OFFICIAL_DATA_INTEGRATION.md)
 - [확장 개발 프로토콜](docs/architecture/EXTENSION_PROTOCOL.md)
+- [기술 기준선](docs/architecture/TECHNICAL_BASELINE.md)
 - [ADR-0001: 모듈형 모놀리스와 Worker](docs/adr/0001-modular-monolith-and-worker.md)
 - [ADR-0002: 원문 불변 버전과 근거 우선 판정](docs/adr/0002-immutable-source-and-evidence.md)
 - [ADR-0003: 업종별 버전형 규칙팩](docs/adr/0003-versioned-rule-packs.md)
