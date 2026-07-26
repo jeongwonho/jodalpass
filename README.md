@@ -64,6 +64,20 @@
 
 단계별 목표와 중단 기준은 [수익 전환 플레이북](docs/REVENUE_PLAYBOOK.md)에 기록합니다.
 
+## 확장 가능한 제품 구조
+
+향후 업종·연동·결제상품·낙찰 후 기능을 추가할 때 기존 흐름이 꼬이지 않도록 모듈 경계와 변경 절차를 먼저 고정했습니다.
+
+- [시스템 아키텍처](docs/architecture/SYSTEM_ARCHITECTURE.md)
+- [공식 데이터 연동 아키텍처](docs/architecture/OFFICIAL_DATA_INTEGRATION.md)
+- [확장 개발 프로토콜](docs/architecture/EXTENSION_PROTOCOL.md)
+- [ADR-0001: 모듈형 모놀리스와 Worker](docs/adr/0001-modular-monolith-and-worker.md)
+- [ADR-0002: 원문 불변 버전과 근거 우선 판정](docs/adr/0002-immutable-source-and-evidence.md)
+- [ADR-0003: 업종별 버전형 규칙팩](docs/adr/0003-versioned-rule-packs.md)
+- [ADR-0004: 테넌트 격리, Outbox와 멱등 작업](docs/adr/0004-tenancy-outbox-idempotency.md)
+
+새 기능은 위 문서의 모듈 소유권, 공개 계약, 데이터 마이그레이션, 기능 플래그, 테스트·운영 게이트를 통과해야 합니다.
+
 ## 개발 작업 규칙
 
 모든 개발 작업은 다음 순서로 진행합니다.
