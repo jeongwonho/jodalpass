@@ -97,7 +97,7 @@ AwardSource
 - contains_sensitive_data
 - retention_class
 
-API 키, Authorization 헤더, 전체 사업자번호는 저장하지 않는다. 같은 content_hash면 중복 body 저장을 피울 수 있지만 수집 시각 기록은 남긴다.
+API 키, Authorization 헤더, 전체 사업자번호는 저장하지 않는다. 같은 content_hash면 중복 body 저장을 피할 수 있지만 수집 시각 기록은 남긴다.
 
 ### canonical model
 
